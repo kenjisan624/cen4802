@@ -7,9 +7,13 @@ Software Integration, Configuration, and Testing || Kenji Nakanishi || Valencia 
 # Portofolio for: 
 
 **Student Name:** Kenji Nakanishi 
+
 **Instructor:** Ian O'Toole
+
 **Course:** Software Integration, Configuration, and Testing at Valencia College Spring 2026 
+
 **Created date:** 1/18/2026
+
 
 
 
