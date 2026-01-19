@@ -9,6 +9,7 @@ Date: 1/18/2026
 public class FibonacciSequence {
 
     /**
+     * Commit
      * The Fibonacci Sequence is defined by its recurrence relation;
      * F(0) = 0, F(1) = 1 -> first two values
      * Following the second Fibonnaci number; when F(n); n > 1 then:
