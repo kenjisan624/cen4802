@@ -7,5 +7,5 @@ Course: Software Integration, Configuration, and Testing at Valencia College Spr
 Created date: 1/18/2026
 
 <p align="center">
-<img src="images/vc.png" width="350">
+<img src="images/Screenshot 2026-01-18 195703.png" width="350">
 </p>
