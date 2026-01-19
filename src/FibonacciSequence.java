@@ -6,24 +6,34 @@ Course: Software Integration, Configuration, and Testing
 Date: 1/18/2026
 */
 
-// The Fibonacci Sequence is defined by its recurrence relation; 
-// F(0) = 0, F(1) = 1  -> first two values 
-// and when F(n); n > 1 the,
-// F(n) = F(n - 1) + F( n - 2)
-// https://en.wikipedia.org/wiki/Fibonacci_sequence
-
 public class FibonacciSequence {
 
-    public static int fibonacci(int n) {
+    /**
+     * The Fibonacci Sequence is defined by its recurrence relation;
+     * F(0) = 0, F(1) = 1 -> first two values
+     * Following the second Fibonnaci number; when F(n); n > 1 then:
+     * F(n) = F(n - 1) + F( n - 2)
+     * Source: https://en.wikipedia.org/wiki/Fibonacci_sequence
+     * 
+     * <p>
+     * Exampe calculation:
+     * </p>
+     * 
+     * <pre>
+     *  Fibonacci(0) = 0
+     *  Fibonacci(1) = 1
+     *  *** Fibonacci(n) = Fibonacci(n - 1) + Fibonacci( n - 2) ***
+     *  Fibonacci(2) = Fibonacci(1) + Fibonacci(0) = 1 + 0 = 1
+     *  Fibonacci(3) = Fibonacci(2) + Fibonacci(1) = 1 + 1 = 2
+     *  Fibonacci(4) = Fibonacci(3) + Fibonacci(2) = 2 + 1 = 3
+     *  Fibonacci(5) = Fibonacci(4) + Fibonacci(3) = 3 + 2 = 5
+     * </pre>
+     * 
+     * @param n is the term index that be used to calculate the Fibonacci number
+     * @return The n th Fibonacci number.
+     */
 
-        // Examplification:
-        // Fibonacci(0) = 0
-        // F(1) = 1
-        // *** F(n) = F(n - 1) + F( n - 2) ***
-        // F(2) = F(1) + F(0) = 1 + 0 = 1
-        // F(3) = F(2) + F(1) = 1 + 1 = 2
-        // F(4) = F(3) + F(2) = 2 + 1 = 3
-        // F(5) = F(4) + F(3) = 3 + 2 = 5
+    public static int fibonacci(int n) {
 
         if (n == 0)
             return 0;
@@ -40,7 +50,7 @@ public class FibonacciSequence {
         // accept n as parameter and pass 10 as an argument:
         int n = 10;
 
-        System.out.println("Performing calculations for Fobinacci " + n + " th term...");
+        System.out.println("Performing calculations for Fibonacci " + n + " th term...");
 
         // Loading animation using Thread.sleep:
         for (int i = 0; i < 5; i++) {
